@@ -1,0 +1,5 @@
+aws_region    = "eu-west-2"
+project_name  = "ecs-service-dashboard"
+environment   = "dev"
+image_tag     = "latest"
+desired_count = 2

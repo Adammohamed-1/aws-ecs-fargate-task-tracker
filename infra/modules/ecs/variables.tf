@@ -1,0 +1,9 @@
+variable "name_prefix" { type = string }
+variable "aws_region" { type = string }
+variable "private_subnets" { type = list(string) }
+variable "alb_security_group_id" { type = string }
+variable "target_group_arn" { type = string }
+variable "repository_url" { type = string }
+variable "image_tag" { type = string }
+variable "container_port" { type = number }
+variable "desired_count" { type = number }

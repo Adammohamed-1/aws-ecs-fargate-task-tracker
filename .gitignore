@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+.env
+.venv/
+venv/
+
+# Terraform local files
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform/
+.terraform.tfstate.lock.info
+tfplan
+crash.log
+
+# Private keys
+*.pem
+*.key
